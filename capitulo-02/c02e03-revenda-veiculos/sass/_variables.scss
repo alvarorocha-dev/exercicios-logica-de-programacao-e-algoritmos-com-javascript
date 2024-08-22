@@ -1,0 +1,32 @@
+// =======================> Typography
+
+$primary-ff: "Lora", serif;
+$secondary-ff: "Sora", sans-serif;
+
+// =======================> Colors
+
+$primary-clr: 209 100% 11%;
+// $primary-dark-clr: #000;
+// $primary-ligh-clr: #000;
+$secondary-clr: 209 100% 36%;
+// $secondary-dark-clr: #000;
+// $secondary-ligh-clr: #000;
+
+$contrast-clr: 33 46% 54%;
+$accent-clr: 209 62% 54%;
+// $accent-dark-clr: #000;
+// $accent-ligh-clr: #000;
+$text-clr: 214 50% 9%;
+
+$off-white-clr: 45 29% 97%; /* RGB: 250 248 245 */
+$off-black-clr: 0 0% 9%; /* RGB: 23 23 23 */
+$success-clr: 160 100% 35%; /* RGB: 0 179 119 */
+$error-clr: 355 92% 57%; /* RGB: 246 44 61 */
+
+// =======================> Transitions / Shadows
+
+$ease-animation: all 0.5s ease-in-out;
+$linear-animation: all 0.5s linear;
+
+$box-shadow-light: 0 0 10px rgba(0, 0, 0, 0.2);
+$box-shadow-strong: 0 0 10px rgba(0, 0, 0, 0.5);
