@@ -182,7 +182,7 @@ h3 {
   font-size: 1.2rem;
 }
 .right-column .divider {
-  width: 40%;
+  width: 20rem;
   height: 0.8rem;
   background: hsl(215, 30%, 79%);
   border-radius: 100px;
@@ -197,6 +197,9 @@ h3 {
   font-size: 1.6rem;
   font-weight: 500;
   color: hsl(215, 30%, 79%);
+}
+.right-column .statement summary:hover {
+  cursor: pointer;
 }
 .right-column .statement p {
   margin: 1rem 0;
@@ -250,7 +253,7 @@ h3 {
   color: hsl(355, 92%, 57%);
 }
 
-@media screen and (min-width: 768px) {
+@media (width >= 768px) {
   body {
     padding: 3rem 0;
   }

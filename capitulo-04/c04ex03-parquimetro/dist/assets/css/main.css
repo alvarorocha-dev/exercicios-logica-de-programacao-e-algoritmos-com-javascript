@@ -138,6 +138,8 @@ h3 {
 .img-poster {
   width: 60%;
   margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid hsl(215, 30%, 79%);
 }
 
 .socials {
@@ -182,7 +184,7 @@ h3 {
   font-size: 1.2rem;
 }
 .right-column .divider {
-  width: 40%;
+  width: 20rem;
   height: 0.8rem;
   background: hsl(215, 30%, 79%);
   border-radius: 100px;
@@ -197,6 +199,9 @@ h3 {
   font-size: 1.6rem;
   font-weight: 500;
   color: hsl(215, 30%, 79%);
+}
+.right-column .statement summary:hover {
+  cursor: pointer;
 }
 .right-column .statement p {
   margin: 1rem 0;

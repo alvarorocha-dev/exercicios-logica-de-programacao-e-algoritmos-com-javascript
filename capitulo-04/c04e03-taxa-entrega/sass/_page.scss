@@ -80,6 +80,10 @@ h3 {
       font-size: 1.6rem;
       font-weight: 500;
       color: hsl(v.$accent-clr);
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     p {
@@ -88,13 +92,13 @@ h3 {
 
     table {
       width: 100%;
-      color: hsl(v.$secondary-clr);
       font-size: 1.5rem;
 
       th,
       td {
         border: 1px solid;
         text-align: center;
+        color: hsl(v.$accent-clr);
         padding: 0.5rem 0;
       }
     }

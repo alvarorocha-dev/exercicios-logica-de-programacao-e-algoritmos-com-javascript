@@ -198,18 +198,21 @@ h3 {
   font-weight: 500;
   color: hsl(215, 30%, 79%);
 }
+.right-column .statement summary:hover {
+  cursor: pointer;
+}
 .right-column .statement p {
   margin: 1rem 0;
 }
 .right-column .statement table {
   width: 100%;
-  color: hsl(220, 51%, 36%);
   font-size: 1.5rem;
 }
 .right-column .statement table th,
 .right-column .statement table td {
   border: 1px solid;
   text-align: center;
+  color: hsl(215, 30%, 79%);
   padding: 0.5rem 0;
 }
 

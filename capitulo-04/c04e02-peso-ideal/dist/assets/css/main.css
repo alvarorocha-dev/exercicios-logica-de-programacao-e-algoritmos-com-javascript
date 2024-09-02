@@ -198,6 +198,9 @@ h3 {
   font-weight: 500;
   color: hsl(215, 30%, 79%);
 }
+.right-column .statement summary:hover {
+  cursor: pointer;
+}
 .right-column .statement p {
   margin: 1rem 0;
 }
@@ -242,7 +245,7 @@ h3 {
   padding: 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media (width >= 768px) {
   body {
     padding: 3rem 0;
   }

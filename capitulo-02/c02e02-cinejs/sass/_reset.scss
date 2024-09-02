@@ -65,6 +65,12 @@ picture {
   margin: 0;
 }
 
+p {
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
 }
@@ -75,12 +81,12 @@ ul {
 
 .btn {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: v.$primary-ff;
   font-weight: 600;
-  background-color: hsl(v.$secondary-clr);
-  color: hsl(v.$contrast-clr);
-  border: 2px solid hsl(v.$accent-clr);
+  color: hsl(v.$accent-clr);
+  background-color: hsl(v.$primary-clr);
+  border: 2px solid hsl(v.$contrast-clr);
   border-radius: 40px;
   cursor: pointer;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
@@ -88,6 +94,6 @@ ul {
 
   &:hover {
     color: hsl(v.$contrast-clr);
-    background: hsl(v.$primary-clr);
+    background: hsl(v.$accent-clr);
   }
 }

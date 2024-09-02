@@ -64,7 +64,7 @@ h3 {
   }
 
   .divider {
-    width: 40%;
+    width: 20rem;
     height: 0.8rem;
     background: hsl(v.$accent-clr);
     border-radius: 100px;
@@ -80,6 +80,10 @@ h3 {
       font-size: 1.6rem;
       font-weight: 500;
       color: hsl(v.$accent-clr);
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     p {

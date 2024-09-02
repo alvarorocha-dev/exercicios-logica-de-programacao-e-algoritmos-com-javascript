@@ -12,11 +12,11 @@ p,
 h1,
 h2,
 h3 {
-  color: hsl(v.$secondary-clr);
+  color: hsl(v.$accent-clr);
 }
 
 .wrapper {
-  background: rgba(191, 143, 84, 0.8);
+  background: rgba(2, 72, 115, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 4rem;
@@ -40,20 +40,19 @@ h3 {
 }
 
 .social-icon {
-  color: hsl(v.$secondary-clr);
+  color: hsl(v.$accent-clr);
   font-size: 2rem;
   margin-left: 1.5rem;
   transition: v.$ease-animation;
 
   &:hover {
     transform: scale(1.3);
-    color: hsl(v.$accent-clr);
+    color: hsl(v.$off-white-clr);
   }
 }
 
 .credits {
   text-align: center;
-  font-size: 1.2rem;
 }
 
 .right-column {
@@ -62,7 +61,7 @@ h3 {
   gap: 2rem;
 
   .title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .divider {
@@ -74,14 +73,19 @@ h3 {
   }
 
   .statement {
-    border: 2px solid rgba(224, 216, 209, 0.5);
+    border: 2px solid hsla(33, 88%, 58%, 0.5);
     border-radius: 5px;
     padding: 1.5rem;
 
     summary {
-      font-size: 1.6rem;
-      font-weight: 500;
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: 3px;
       color: hsl(v.$accent-clr);
+    }
+
+    &:hover {
+      cursor: pointer;
     }
 
     p {
@@ -97,8 +101,10 @@ h3 {
 
 #form {
   label {
-    font-size: 1.5rem;
-    color: hsl(v.$secondary-clr);
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: hsl(v.$accent-clr);
     margin: 5rem 0;
   }
 
@@ -125,7 +131,7 @@ h3 {
   }
 }
 
-@media (width >= 768px) {
+@media screen and (min-width: 768px) {
   body {
     padding: 3rem 0;
   }

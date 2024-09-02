@@ -80,6 +80,10 @@ h3 {
       font-size: 1.6rem;
       font-weight: 500;
       color: hsl(v.$accent-clr);
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     p {
